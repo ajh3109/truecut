@@ -22,8 +22,7 @@ public class MyBatisConnectionFactory {
 	static {
 
 		try {
-			Path path = Paths.get("deploy", "conf", "mybatis", "SqlMapConfig.xml");
-			String resource = path.toString();
+			String resource = "resource/mybatis/SqlMapConfig.xml";
 			Reader reader = Resources.getResourceAsReader(resource);
 
 			if (sqlSessionFactory == null) {
