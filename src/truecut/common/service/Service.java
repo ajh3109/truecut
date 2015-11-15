@@ -61,5 +61,6 @@ public class Service extends DaemonLifecycleAdapter implements ILoggingConfigure
 	public void simpleLogging() throws Exception {
 		initializeLogging();
 	}
+	
 
 }
